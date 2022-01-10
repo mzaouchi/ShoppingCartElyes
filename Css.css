@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body {
+    
+    background-image: linear-gradient(#de6262 , #ffb88c);
+ }
+
+ 
+header {
+    text-align: center;
+    margin: 6% 0 6% 0;
+}
+ #hoover {
+     color: white;
+     text-align: center;
+     font-family: 'Raleway';
+     font-size: 45px;
+    text-decoration: none;
+ }
+
+ #firstline {
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     font-size: 15px;
+     background-color: #edeff2;
+     margin: 0 3% 0 3%;
+    
+ }
+ #secondline {
+     display: flex;
+     justify-content: space-between;
+     margin: 0 4% 0 4%;
+     align-items: center;
+     border-bottom:solid lightgray;
+     border-radius: 2px;
+     margin-top: 1%;
+
+
+ }
+ #thirdline {
+    display: flex;
+     justify-content: space-between;
+     margin: 0 4% 16px 4%;
+     align-items: center;
+     border-bottom:solid lightgray;
+     border-radius: 2px;
+     margin-top: 1%;
+}
+#forthline {
+    display: flex;
+     justify-content: space-between;
+     margin: 0 4% 0 4%;
+     align-items: center;
+     border-bottom:solid lightgray;
+     border-radius: 2px;
+     margin-top: 1%;
+}
+ #line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+    align-items: center;
+    border-bottom:solid lightgray;
+    border-radius: 2px;
+    margin-top: 1%;
+}
+ 
+ section {
+     background-color: white;
+     font-family: 'Raleway';
+     color: black;
+     border-radius: 5px;
+     margin: 0 20 50 20; 
+ }
+ #img1 {
+     display: flex;
+     justify-content: flex-start;
+     align-items:flex-start;
+    margin: 0 0 0 42px;
+ }
+
+ #img2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+   margin: 0 0 0 42px;
+}
+
+#img3{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+   margin: 0 0 0 42px;
+}
+
+ aside {
+     padding: 45 0 45 0;
+ }
+
+ #product{
+    margin-right: 38%;
+ }
+ .itemimg {
+     width: 100px;
+     padding: 5 0 10 0;
+     
+ }
+
+.delete {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#img11 {
+
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 83px 5 0;
+    width: 473px;
+}   
+#img22 {
+
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 83px 5 0;
+    width: 473px;
+}   
+#img33 {
+
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 83px 5 0;
+    width: 473px;
+}   
+.like {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.elD{
+    filter: grayscale();
+}
+
+h4 {
+    margin-left: 20px;
+}
+#final{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 40 70 0 0;
+    align-items: center;
+    margin: 0 0 0 64%;
+}
+
+
+ #butcheck{
+     background-color: rgb(21, 63, 247);
+     color: white;
+     border-radius: 5%;
+     border: rgb(21, 63, 247);
+     border-style: solid;
+     width: 100;
+     height: 40;
+     font-weight: 550;
+ }
+
+ #heart2{
+margin: 0 0 0 78; }
+ 
+#heart3{
+    margin: 0 0 0 131px;
+
+ }
+
+input::-webkit-inner-spin-button {
+    appearance: none;
+
+}
+.QuantityItem {
+    height: 44px;
+    width: 53px;
+    text-align: center;
+    height: 16px;
+}
+.PosInput{
+    display: flex;
+    align-items: center;
+}
+.ButtonPos{
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+width: 25px;
+}
+
+.b{
+    width: 25px;
+}
+ 
+#Totalprice {
+    border-style: solid;
+    border-color: #de6262;
+}
